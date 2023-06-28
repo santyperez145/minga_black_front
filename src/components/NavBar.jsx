@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Display = () => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -83,4 +83,4 @@ const Display = () => {
   );
 };
 
-export default Display;
+export default NavBar;
