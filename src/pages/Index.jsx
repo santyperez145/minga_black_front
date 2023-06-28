@@ -10,6 +10,6 @@ export default function Index({ nombre,version,data }) {
         <h1 className='hidden flex-wrap xl:w-[100%] xl:justify-center xl:flex xl:self-center xl:text-6xl xl:text-center'>Best manga reader</h1>
         <Carrousel />
         <Hero />  
-      </main>
+    </main>
   )
 }

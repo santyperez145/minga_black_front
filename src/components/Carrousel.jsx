@@ -14,7 +14,7 @@ export default function Carrousel() {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 4000);
+    }, 3000);
 
     return () => {
       clearInterval(interval);
@@ -23,8 +23,7 @@ export default function Carrousel() {
 
   return (
     <div className='flex flex-wrap flex-row self-center justify-evenly w-[50%] xl:flex-wrap'>
-      <img
-        className='hidden flex-wrap xl:flex xl:items-center xl:w-[700px] xl:h-[850px]'
+      <img className='hidden flex-wrap xl:flex xl:items-center xl:w-[700px] xl:h-[850px]'
         src={images[currentIndex]}
         alt={`Imagen ${currentIndex + 1}`}
       />
